@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+
+.counter-wrapper {
+    display: inline-flex;
+    font-size: 21px;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 8px;
+}
+
+.counter-btn {
+    border: none;
+    box-sizing: border-box;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.counter-btn, .counter-count {
+    height: 56px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px #B24242;
+}
+
+.counter-btn:first-of-type {
+    background: #fff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+}
+
+.counter-btn:last-of-type {
+    background: #B24242;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #fff;
+}
+
+.counter-count {
+    background: #FBE8E8;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    color: #B24242;
+    font-size: 21px;
+    padding: 0px;
+    border-left: none;
+    border-right: none;
+}
